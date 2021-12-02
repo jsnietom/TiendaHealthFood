@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "711965377801",
+    "project_id": "tiendahealthfood",
+    "storage_bucket": "tiendahealthfood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711965377801:android:e4f0d65e516c11f0a13fd8",
+        "android_client_info": {
+          "package_name": "com.example.tiendahealthfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711965377801-a999gdkl73e6o8l2om1hn1507dhjbkv2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tiendahealthfood",
+            "certificate_hash": "62ccda0cc976091ea8dacc08370f818deaff85ae"
+          }
+        },
+        {
+          "client_id": "711965377801-r8lfaer40flgs4j30tadh182kbbkdiqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAC8aQj_j0UYhSy37wRYIajw84b1Yt6Hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711965377801-r8lfaer40flgs4j30tadh182kbbkdiqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TiendaHealthFood</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hintComment">Hello blank fragment</string>
+    <string name="textHome">HealtFood es una aplicacion que le permite adquirir productos para su canasta familiar</string>
+    <string name="textTitleComments">bueno</string>
+    <string name="btSaveComment">Guardar</string>
+    <string name="btBuyProduct">Agregar al carrito</string>
+    <string name="navigate_edit">Editar datos</string>
+    <string name="textTitleAdmin">Mi perfil</string>
+    <string name="hintMail">Correo</string>
+    <string name="btSaveAdmin">Guardar cambios</string>
+    <string name="hintName">Nombre</string>
+    <string name="hintAddress">Dirección</string>
+    <string name="hintPhone">Teléfono</string>
+    <string name="splashContent">Bienvenido</string>
+    <string name="textHome2">Esta aplicación fue desarrollada utilizando Kotlin. Contiene los elementos básicos que permitirán llevar al estudiante a comprender el desarrollo de apps, el manejo del ciclo de vida, el uso de APIs, la interacción con servicios en la nube, entre otros. Se espera que el estudiante este en capacidad al finalizar el curso de desarrollar un app con las habilidades aquí aprendidas.</string>
+</resources>
