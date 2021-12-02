@@ -1,6 +1,5 @@
 package com.example.tiendahealthfood.view.ui.activities
 
-
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

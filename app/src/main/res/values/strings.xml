@@ -15,5 +15,6 @@
     <string name="hintAddress">Dirección</string>
     <string name="hintPhone">Teléfono</string>
     <string name="splashContent">Bienvenido</string>
+    <string name="fab_new_comment">Nuevo comentario</string>
     <string name="textHome2">Esta aplicación fue desarrollada utilizando Kotlin. Contiene los elementos básicos que permitirán llevar al estudiante a comprender el desarrollo de apps, el manejo del ciclo de vida, el uso de APIs, la interacción con servicios en la nube, entre otros. Se espera que el estudiante este en capacidad al finalizar el curso de desarrollar un app con las habilidades aquí aprendidas.</string>
 </resources>

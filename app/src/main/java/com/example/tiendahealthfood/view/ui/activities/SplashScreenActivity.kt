@@ -11,6 +11,7 @@ import com.example.tiendahealthfood.databinding.ActivitySplashScreenBinding
 class SplashScreenActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivitySplashScreenBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySplashScreenBinding.inflate(layoutInflater)
@@ -20,6 +21,7 @@ class SplashScreenActivity : AppCompatActivity() {
         val animation = AnimationUtils.loadAnimation(this, R.anim.animation)
         binding.ivSplashScreen.startAnimation(animation)
         val intent = Intent(this,LoginActivity::class.java)
+
         animation.setAnimationListener(object: Animation.AnimationListener{
             override fun onAnimationStart(animation: Animation?) {
             }

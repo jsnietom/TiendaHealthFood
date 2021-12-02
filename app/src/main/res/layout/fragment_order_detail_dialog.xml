@@ -80,7 +80,7 @@
                             android:background="@color/primaryDarkColor"
                             android:text="@string/btBuyProduct"
                             android:textColor="@color/primaryTextColor"
-                            android:layout_marginTop="@dimen/defaultLayoutMargin"/>
+                            android:layout_marginTop="10dp"/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

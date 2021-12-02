@@ -1,6 +1,5 @@
 package com.example.tiendahealthfood.view.ui.fragments
 
-
 import Data.DBHelper
 import Data.Tables
 import android.database.sqlite.SQLiteDatabase
