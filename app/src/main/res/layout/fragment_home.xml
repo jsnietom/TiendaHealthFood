@@ -31,7 +31,7 @@
                         android:layout_height="@dimen/logoHeight"
                         android:layout_margin="@dimen/defaultLayoutMargin"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ic_launcher"/>
+                        android:src="@drawable/logoapp"/>
 
                     <TextView
                         android:id="@+id/tvHome"
@@ -48,7 +48,7 @@
                         android:layout_height="@dimen/fotoTiendaHeight"
                         android:layout_margin="@dimen/defaultLayoutMargin"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/foto_tienda" />
+                        android:src="@drawable/tienda_health" />
 
                     <TextView
                         android:id="@+id/tvHome2"

@@ -18,14 +18,14 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCJB6QfahU8dVC3sVOjyUKsrJLoZ8yjDMA" />
 
-        <activity android:name=".view.ui.activities.SplashScreenActivity"
+        <!--<activity android:name=".view.ui.activities.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>-->
         <activity
             android:name=".view.ui.activities.MainActivity"
             android:exported="true">
@@ -36,5 +36,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

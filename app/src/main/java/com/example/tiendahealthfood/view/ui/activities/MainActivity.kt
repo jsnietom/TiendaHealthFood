@@ -1,6 +1,5 @@
 package com.example.tiendahealthfood.view.ui.activities
 
-import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.app.ActivityCompat
@@ -29,12 +28,12 @@ class MainActivity : AppCompatActivity() {
         findViewById<BottomNavigationView>(R.id.bnvMenu).setupWithNavController(navController)
     }
 
-    @SuppressLint("MissingSuperCall")
     override fun onRequestPermissionsResult(
         requestCode: Int,
         permissions: Array<out String>,
         grantResults: IntArray
     ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         val permissionsToRequest = ArrayList<String>();
         var i = 0;
         while (i < grantResults.size) {
