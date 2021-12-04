@@ -106,7 +106,7 @@ class HomeFragment : Fragment(), OnMapReadyCallback {
             }
     }
 
-    override fun onMapReady(p0: GoogleMap?) {
+    override fun onMapReady(p0: GoogleMap) {
         val ubication = Ubication()
         val zoom = 16f
         val centerMap = LatLng(ubication.latitude, ubication.longitude)

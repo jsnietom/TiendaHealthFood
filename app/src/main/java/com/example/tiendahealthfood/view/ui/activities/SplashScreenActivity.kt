@@ -16,11 +16,12 @@ class SplashScreenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySplashScreenBinding.inflate(layoutInflater)
         val view = binding.root
-        setContentView(R.layout.activity_splash_screen)
+        //setContentView(R.layout.activity_splash_screen)
+        setContentView(view)
 
         val animation = AnimationUtils.loadAnimation(this, R.anim.animation)
         binding.ivSplashScreen.startAnimation(animation)
-        val intent = Intent(this,LoginActivity::class.java)
+        val intent = Intent(this,MainActivity::class.java)
 
         animation.setAnimationListener(object: Animation.AnimationListener{
             override fun onAnimationStart(animation: Animation?) {

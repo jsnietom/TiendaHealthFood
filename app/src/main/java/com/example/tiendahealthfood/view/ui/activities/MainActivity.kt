@@ -12,7 +12,7 @@ import com.example.tiendahealthfood.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private val REQUEST_PERMISSIONS_REQUEST_CODE = 1
+    //private val REQUEST_PERMISSIONS_REQUEST_CODE = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<BottomNavigationView>(R.id.bnvMenu).setupWithNavController(navController)
     }
 
-    override fun onRequestPermissionsResult(
+    /*override fun onRequestPermissionsResult(
         requestCode: Int,
         permissions: Array<out String>,
         grantResults: IntArray
@@ -46,6 +46,6 @@ class MainActivity : AppCompatActivity() {
                 permissionsToRequest.toTypedArray(),
                 REQUEST_PERMISSIONS_REQUEST_CODE);
         }
-    }
+    }*/
 
 }
