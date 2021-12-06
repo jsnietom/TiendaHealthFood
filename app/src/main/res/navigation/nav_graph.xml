@@ -64,7 +64,4 @@
         android:label="AdminDetailFragmentDialog"
         tools:layout="@layout/fragment_admin_detail_dialog"/>
 
-
-
-
 </navigation>

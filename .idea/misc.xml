@@ -9,6 +9,7 @@
         <entry key="app/src/main/res/drawable/ic_outline_home_24.xml" value="0.13703703703703704" />
         <entry key="app/src/main/res/drawable/logo_vertical.xml" value="0.13385416666666666" />
         <entry key="app/src/main/res/drawable/logo_vertical_background.xml" value="0.13703703703703704" />
+        <entry key="app/src/main/res/layout/activity_log.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1105072463768116" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
