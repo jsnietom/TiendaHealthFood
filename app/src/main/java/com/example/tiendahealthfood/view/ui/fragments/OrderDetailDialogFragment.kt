@@ -35,7 +35,7 @@ class OrderDetailDialogFragment : DialogFragment() {
         val products = arguments?.getSerializable("product") as Products
 
         binding.tvNameProduct.text = products.name
-        binding.tvDescriptionProduct.text = products.detail
+        binding.tvDetailProduct.text = products.detail
         binding.tvPriceProduct.text = products.price
         Picasso.get().load(products.url).into(binding.ivProduct)
 
@@ -46,6 +46,7 @@ class OrderDetailDialogFragment : DialogFragment() {
 
     override fun onStart() {
         super.onStart()
-        dialog?.window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT)
+        dialog?.window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT,
+            ViewGroup.LayoutParams.MATCH_PARENT)
     }
 }

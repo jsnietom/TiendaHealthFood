@@ -64,7 +64,7 @@
                             android:textColor="@color/primaryTextColor"/>
 
                         <TextView
-                            android:id="@+id/tvDescriptionProduct"
+                            android:id="@+id/tvDetailProduct"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Detalle"

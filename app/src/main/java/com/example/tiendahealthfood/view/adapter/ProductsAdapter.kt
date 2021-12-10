@@ -20,6 +20,7 @@ class ProductsAdapter(val productsListener: ProductsListener) : RecyclerView.Ada
         val products = listProducts[position]
         holder.tvNameProduct.text = products.name
         holder.tvPriceProduct.text = products.price
+        holder.ivDetailProduct.text = products.detail
         Picasso.get().load(products.url).into(holder.ivItemProduct)
 
         holder.itemView.setOnClickListener {
@@ -39,5 +40,6 @@ class ProductsAdapter(val productsListener: ProductsListener) : RecyclerView.Ada
         val tvNameProduct = itemView.findViewById<TextView>(R.id.tvItemNameProduct)
         val tvPriceProduct = itemView.findViewById<TextView>(R.id.tvItemPriceProduct)
         val ivItemProduct = itemView.findViewById<ImageView>(R.id.ivItemProduct)
+        val ivDetailProduct = itemView.findViewById<TextView>(R.id.tvItemDetailProduct)
     }
 }

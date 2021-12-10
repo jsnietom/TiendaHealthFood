@@ -41,10 +41,8 @@ class AdminDetailDialogFragment : Fragment() {
         informacionDBHelper = DBHelper(activity)
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
         // return inflater.inflate(R.layout.fragment_admin_detail_dialog, container, false)
         _binding = FragmentAdminDetailDialogBinding.inflate(inflater, container, false)

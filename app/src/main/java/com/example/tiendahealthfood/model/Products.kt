@@ -1,6 +1,6 @@
 package com.example.tiendahealthfood.model
-
-class Products {
+import java.io.Serializable
+class Products : Serializable  {
     lateinit var name: String
     lateinit var url: String
     lateinit var price: String

@@ -37,6 +37,15 @@
             android:gravity="center_horizontal"
             android:textSize="@dimen/sizePriceProduct"
             android:textColor="@color/primaryTextColor"/>
+
+        <TextView
+            android:id="@+id/tvItemDetailProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Producto con garantia"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/sizeDetailProduct"
+            android:textColor="@color/primaryTextColor"/>
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
